@@ -18,16 +18,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
   window.Reveal = Reveal // plugins need that
 
   Reveal.initialize({
-    width: 960,
-    height: 700,
+    //width: 960,
+    //height: 700,
     // margin: 0.05, // Factor of the display size that should remain empty around the content
-    controls: false, // Display controls in the bottom right corner
+    controls: true, // Display controls in the bottom right corner
     progress: true, // Display a presentation progress bar
     slideNumber: false, // Display the page number of the current slide
     history: true, // Push each slide change to the browser history
     keyboard: true, // Enable keyboard shortcuts for navigation
     center: false, // Vertical centering of slide
-    overview: true,
+    help: true, // show help, when questionmark key is pressed
+    showNotes: false, // notes are visible to all viewers
+    overview: true, // enable overview via ESC
     transition: 'slide', // Transition style: none/fade/slide/convex/concave/zoom
     transitionSpeed: 'default', // Transition speed: default/fast/slow
 

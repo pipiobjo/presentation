@@ -14,6 +14,10 @@ import './reveal-config.js';
 // Reveal js styles and theme
 import 'stylesPath/main.scss';
 
+import readme from '../asciidoc/README.adoc'
+
+document.getElementById('container').innerHTML = readme;
+
 
 // if Font Awesome backend is css and local, then compile necessary .scss files
 if (FA_CSS_LOCAL) {

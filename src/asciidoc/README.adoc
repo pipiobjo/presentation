@@ -1,0 +1,90 @@
+== AsciiDoc : Syntax Quick Reference
+
+Dan Allen, Sarah White
+
+dfasdfdsaf
+
+
+[.notes]
+--
+* press 's' for speakers note
+* tell anecdote
+* make a point
+--
+
+
+=== asdfsafdsa
+
+fasfdsasfsa
+
+
+
+[transition=zoom, %notitle]
+== Zoom zoom
+
+This slide will override the presentation transition and zoom!
+
+[transition-speed=fast, %notitle]
+
+=== SubSlideOfZoom
+
+sub zoom
+
+== Speed
+
+Choose from three transition speeds: default, fast or slow!
+
+
+== Slide Four
+
+[%step]
+* this
+* is
+* revealed
+* gradually
+
+
+== Slide Five
+
+Uses highlighted code
+
+[source, python]
+----
+print "Hello World"
+----
+
+
+
+== Slide Six
+
+Top slide
+
+=== Slide Six.One
+
+This is a vertical subslide
+
+== Admonitions
+
+WARNING: This presentation is dangerous!
+https://asciidoctor.org/docs/user-manual/#admonition
+
+[.important-text]
+== Slide Title
+
+* Some
+* Information
+
+
+= EPIC TITLE
+:imagesdir: images
+:title-slide-background-image: 70s.jpg
+:title-slide-transition: zoom
+:title-slide-transition-speed: fast
+
+== Next slide
+
+Content
+
+
+[state=topic]
+== Epic Topic
