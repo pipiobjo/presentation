@@ -39,7 +39,7 @@
     "file-loader": "^4.2.0",
     "google-fonts-plugin": "^5.0.2",
     "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "html-webpack-tags-plugin": "^2.0.17",
     "loader-utils": "^1.2.3",
     "mini-css-extract-plugin": "^0.8.0",
